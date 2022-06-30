@@ -196,3 +196,33 @@ li {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
+
+  @media only screen and (max-width: 700px) {
+    .image {
+      display: none;
+    }
+    .banner {
+      display: none;
+    }
+    
+    .navigation {
+      left:50%;
+    }
+
+
+    }
+    
+
+  @media only screen and (max-width: 470px) {
+    .image {
+      display: none;
+    }
+    .banner {
+      display: none;
+    }
+
+    .navigation {
+      left:50%;
+    }
+
+  }
